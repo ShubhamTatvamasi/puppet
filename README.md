@@ -16,3 +16,9 @@ Start the puppet server:
 ```bash
 sudo systemctl start puppetserver
 ```
+
+Install puppet agent:
+```bash
+sudo apt install puppet-agent
+```
+
