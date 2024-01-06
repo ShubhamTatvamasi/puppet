@@ -22,3 +22,7 @@ Install puppet agent:
 sudo apt install puppet-agent
 ```
 
+Start the puppet agent:
+```bash
+sudo systemctl start puppet
+```
