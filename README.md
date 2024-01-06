@@ -17,6 +17,16 @@ Start the puppet server:
 sudo systemctl start puppetserver
 ```
 
+Edit the `/etc/hosts` file to add the puppet server IP:
+```bash
+sudo vim /etc/hosts
+```
+
+Add the following line in the `/etc/hosts` file:
+```
+192.168.1.116 puppet
+```
+
 Install puppet agent:
 ```bash
 sudo apt install puppet-agent
