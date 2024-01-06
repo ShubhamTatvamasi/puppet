@@ -12,4 +12,7 @@ Install puppet server:
 sudo apt install puppetserver
 ```
 
-
+Start the puppet server:
+```bash
+sudo systemctl start puppetserver
+```
