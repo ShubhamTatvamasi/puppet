@@ -2,8 +2,8 @@
 
 Setup Puppet repo:
 ```bash
-wget https://apt.puppet.com/puppet8-release-$(lsb_release -sc).deb
-sudo dpkg -i puppet8-release-$(lsb_release -sc).deb
+wget https://apt.puppet.com/puppet-release-$(lsb_release -sc).deb
+sudo dpkg -i puppet-release-$(lsb_release -sc).deb
 sudo apt update
 ```
 
