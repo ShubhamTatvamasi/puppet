@@ -7,6 +7,8 @@ sudo dpkg -i puppet-release-$(lsb_release -sc).deb
 sudo apt update
 ```
 
+### Puppet Server
+
 Install Puppet server:
 ```bash
 sudo apt install puppetserver
@@ -39,6 +41,8 @@ Add the following line in the `/etc/hosts` file:
 ```
 192.168.1.116 puppet
 ```
+
+### Puppet Agent
 
 Install puppet agent:
 ```bash
