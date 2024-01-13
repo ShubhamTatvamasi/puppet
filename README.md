@@ -25,6 +25,11 @@ Start the puppet server:
 sudo systemctl start puppetserver
 ```
 
+Check status puppet server:
+```bash
+sudo systemctl status puppetserver
+```
+
 Edit the `/etc/hosts` file to add the puppet server IP:
 ```bash
 sudo vim /etc/hosts
