@@ -17,6 +17,8 @@ puppet agent --test
 Check the request:
 ```bash
 sudo puppetserver ca list
+
+sudo puppetserver ca list --all
 ```
 
 Sign the certificate for `puppet-slave.sq.local` agent:
