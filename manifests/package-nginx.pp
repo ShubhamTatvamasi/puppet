@@ -3,5 +3,5 @@
 # }
 
 package {'nginx':
-  ensure => absent,
+  ensure => purged,
 }
