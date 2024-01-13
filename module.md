@@ -23,6 +23,6 @@ puppet config print modulepath
 
 Install a module from Puppetfile:
 ```bash
-r10k puppetfile install:
+r10k puppetfile install
 ```
 
