@@ -4,12 +4,22 @@
 
 Request Puppet server to connect:
 ```bash
-puppet ssl bootstrap
+sudo puppet ssl bootstrap
 ```
 
 Test agent:
 ```bash
-puppet agent --test
+sudo puppet agent --test
+```
+
+Check certificate:
+```bash
+sudo puppet ssl show
+```
+
+Remove Puppet private key and certificate:
+```bash
+sudo puppet ssl clean
 ```
 
 ### Server
