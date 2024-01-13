@@ -10,3 +10,8 @@ Get a variable:
 export FACTER_coolestteam="Cubs"
 facter coolestteam
 ```
+
+Creata a directory for storing the custom facts:
+```bash
+sudo mkdir -p /etc/facter/facts.d/
+```
