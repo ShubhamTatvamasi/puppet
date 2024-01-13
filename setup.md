@@ -14,3 +14,8 @@ Set soft links for puppet:
 ```bash
 sudo ln -s /home/ubuntu/puppet/code /etc/puppetlabs/code
 ```
+
+Restart puppet server:
+```bash
+sudo systemctl restart puppetserver
+```
