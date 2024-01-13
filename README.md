@@ -10,6 +10,9 @@ sudo apt update
 Edit the `/etc/hosts` file to add the puppet server IP on both server and agent nodes:
 ```bash
 sudo vim /etc/hosts
+
+# changes the master file for cloud-init images
+sudo vim /etc/cloud/templates/hosts.debian.tmpl
 ```
 
 Add the following line in the `/etc/hosts` file:
