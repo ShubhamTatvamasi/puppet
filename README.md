@@ -35,6 +35,7 @@ JAVA_ARGS="-Xms2g -Xmx2g"
 
 Start the puppet server:
 ```bash
+sudo systemctl enable puppetserver
 sudo systemctl start puppetserver
 ```
 
