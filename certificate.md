@@ -12,6 +12,11 @@ Test agent:
 puppet agent --test
 ```
 
+Check certificate:
+```bash
+puppet ssl show
+```
+
 ### Server
 
 Check the request:
