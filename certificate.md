@@ -17,6 +17,11 @@ Check certificate:
 puppet ssl show
 ```
 
+Remove Puppet private key and certificate:
+```bash
+puppet ssl clean
+```
+
 ### Server
 
 Check the request:
