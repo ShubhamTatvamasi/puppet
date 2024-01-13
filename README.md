@@ -53,3 +53,9 @@ Start the puppet agent:
 ```bash
 sudo systemctl start puppet
 ```
+
+Check status puppet agent:
+```bash
+sudo systemctl status puppet
+```
+
