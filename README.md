@@ -7,9 +7,17 @@ sudo dpkg -i puppet-release-$(lsb_release -sc).deb
 sudo apt update
 ```
 
-Install puppet server:
+Install Puppet server:
 ```bash
 sudo apt install puppetserver
+```
+
+Modify Memory:
+```bash
+sudo vim /etc/default/puppetserver
+```
+```
+JAVA_ARGS="-Xms2g -Xmx2g"
 ```
 
 Start the puppet server:
