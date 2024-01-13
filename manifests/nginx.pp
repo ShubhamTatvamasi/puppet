@@ -1,4 +1,4 @@
 service {'nginx':
-  ensure => true,
+  ensure => stopped,
   enable => false,
 }
