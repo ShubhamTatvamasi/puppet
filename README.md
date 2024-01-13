@@ -7,6 +7,17 @@ sudo dpkg -i puppet-release-$(lsb_release -sc).deb
 sudo apt update
 ```
 
+Edit the `/etc/hosts` file to add the puppet server IP on both server and agent nodes:
+```bash
+sudo vim /etc/hosts
+```
+
+Add the following line in the `/etc/hosts` file:
+```
+192.168.1.116 puppet
+```
+
+
 ### Puppet Server
 
 Install Puppet server:
@@ -30,16 +41,6 @@ sudo systemctl start puppetserver
 Check status puppet server:
 ```bash
 sudo systemctl status puppetserver
-```
-
-Edit the `/etc/hosts` file to add the puppet server IP:
-```bash
-sudo vim /etc/hosts
-```
-
-Add the following line in the `/etc/hosts` file:
-```
-192.168.1.116 puppet
 ```
 
 ### Puppet Agent
