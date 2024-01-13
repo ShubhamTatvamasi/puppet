@@ -7,6 +7,12 @@ sudo dpkg -i puppet-release-$(lsb_release -sc).deb
 sudo apt update
 ```
 
+Setup Ruby and R10K:
+```bash
+sudo apt install rubygems -y
+sudo gem install r10k
+```
+
 Edit the `/etc/hosts` file to add the puppet server IP on both server and agent nodes:
 ```bash
 sudo vim /etc/hosts
