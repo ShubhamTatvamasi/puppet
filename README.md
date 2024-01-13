@@ -53,6 +53,7 @@ sudo apt install puppet-agent
 
 Start the puppet agent:
 ```bash
+sudo systemctl enable puppet
 sudo systemctl start puppet
 ```
 
