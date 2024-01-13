@@ -29,3 +29,8 @@ sudo puppetserver ca sign --certname puppet-slave.sq.local
 sudo puppetserver ca sign --all
 ```
 
+Revoke certificate:
+```bash
+sudo puppetserver ca clean --certname puppet-slave.sq.local
+```
+
