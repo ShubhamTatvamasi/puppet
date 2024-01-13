@@ -20,12 +20,6 @@ Add the following line in the `/etc/hosts` file:
 192.168.1.116 puppet
 ```
 
-Set soft links for puppet:
-```bash
-sudo ln -s /opt/puppetlabs/bin/puppet /usr/local/bin/puppet
-sudo ln -s /opt/puppetlabs/bin/puppetserver /usr/local/bin/puppetserver
-```
-
 ### Puppet Server
 
 Install Puppet server:
@@ -50,6 +44,12 @@ sudo systemctl start puppetserver
 Check status puppet server:
 ```bash
 sudo systemctl status puppetserver
+```
+
+Set soft links for puppet:
+```bash
+sudo ln -s /opt/puppetlabs/bin/puppet /usr/local/bin/puppet
+sudo ln -s /opt/puppetlabs/bin/puppetserver /usr/local/bin/puppetserver
 ```
 
 ### Puppet Agent
