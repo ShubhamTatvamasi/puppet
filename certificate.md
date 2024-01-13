@@ -7,6 +7,11 @@ Request Puppet server to connect:
 puppet ssl bootstrap
 ```
 
+Test agent:
+```bash
+puppet agent --test
+```
+
 ### Server
 
 Check the request:
