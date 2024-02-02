@@ -26,6 +26,13 @@ Add the following line in the `/etc/hosts` file:
 192.168.1.116 puppet
 ```
 
+### Puppet Client
+
+Install Puppet client:
+```bash
+sudo apt install puppet
+```
+
 ### Puppet Server
 
 Install Puppet server:
